@@ -4,7 +4,7 @@
 This is the stable version of bondagejs, which unfortunately is not fully compliant with the yarn 2 format.
 
 There is however a newer version which is! You can ge it from this branch:
-[Bondagejs - next - with full Yarn 2.0 compliance]([https://github.com/InfiniteAmmoInc/Yarn](https://github.com/hylyh/bondage.js/tree/2.0) parser for Javascript 
+Bondagejs - next - with full Yarn 2.0 compliance -- https://github.com/InfiniteAmmoInc/Yarn](https://github.com/hylyh/bondage.js/tree/2.0
 
 
 
