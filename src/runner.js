@@ -12,6 +12,10 @@ class Runner {
     this.yarnNodes = {};
     this.variables = new DefaultVariableStorage();
     this.functions = {};
+    this.visited = {};
+    this.registerFunction('visited', (args) => {
+      return !!this.visited[args[0]];
+    });
   }
 
   /**
@@ -124,6 +128,8 @@ class Runner {
         throw new Error(`Node "${startNode}" does not exist`);
       }
 
+      this.visited[startNode] = true;
+      
       // Parse the entire node
       const parserNodes = Array.from(parser.parse(yarnNode.body));
       const metadata = { ...yarnNode };
