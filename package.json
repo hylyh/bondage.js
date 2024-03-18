@@ -39,7 +39,7 @@
     "jison": "^0.4.17",
     "json-loader": "^0.5.4",
     "mocha": "^3.4.2",
-    "webpack": "^1.15.0"
+    "webpack": "^5.74.0"
   },
   "dependencies": {
     "commander": "^2.9.0",
